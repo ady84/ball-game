@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/medhit.mp3-bafe17503d6218f93adf146295a673cf.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/medhit.mp3"
+dest_files=[ "res://.import/medhit.mp3-bafe17503d6218f93adf146295a673cf.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

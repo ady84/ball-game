@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hardhit.mp3-aaa6a1233c4ff48c5bfd16d80bd7724f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/hardhit.mp3"
+dest_files=[ "res://.import/hardhit.mp3-aaa6a1233c4ff48c5bfd16d80bd7724f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

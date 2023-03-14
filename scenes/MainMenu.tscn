@@ -1,0 +1,80 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/fonts/gohufont-uni-14.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scenes/Wall.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/MainMenuBall.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/ButtonActions.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 128
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 64
+font_data = ExtResource( 1 )
+
+[sub_resource type="PhysicsMaterial" id=3]
+bounce = 0.5
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="Title" type="Label" parent="."]
+anchor_right = 1.0
+margin_top = 192.0
+margin_bottom = 321.0
+custom_fonts/font = SubResource( 1 )
+text = "BALL GAME"
+align = 1
+autowrap = true
+uppercase = true
+
+[node name="Start" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -256.0
+margin_top = -34.0
+margin_right = 256.0
+margin_bottom = 47.0
+custom_fonts/font = SubResource( 2 )
+text = "START"
+
+[node name="Quit" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -256.0
+margin_top = 174.0
+margin_right = 256.0
+margin_bottom = 245.0
+custom_fonts/font = SubResource( 2 )
+text = "QUIT >:("
+
+[node name="Wall" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800, 32 )
+scale = Vector2( 25, -1 )
+
+[node name="Wall2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800, 864 )
+scale = Vector2( 25, -1 )
+
+[node name="Wall3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 448 )
+rotation = 1.5708
+scale = Vector2( 12, 1 )
+
+[node name="Wall4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1568, 448 )
+rotation = 1.5708
+scale = Vector2( 12, 1 )
+
+[node name="MainMenuBall" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 800 )
+physics_material_override = SubResource( 3 )
+gravity_scale = 5.0
+
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

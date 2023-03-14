@@ -1,0 +1,177 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://scenes/Wall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Ball.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Playlist.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Hole.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/PauseMenu.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/Camera.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/fonts/gohufont-uni-14.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://scenes/LevelComplete.tscn" type="PackedScene" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 8 )
+
+[node name="Level1" type="Node"]
+
+[node name="Camera2D" parent="." instance=ExtResource( 7 )]
+
+[node name="SpawnPoint" type="Position2D" parent="."]
+
+[node name="Playlist" parent="." instance=ExtResource( 4 )]
+
+[node name="Walls" type="Node" parent="."]
+
+[node name="Wall" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( -7.62939e-06, 64 )
+scale = Vector2( 8, 1 )
+
+[node name="Wall2" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( -288, -400 )
+rotation = 1.5708
+scale = Vector2( 15.5, 1 )
+
+[node name="Wall3" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 288, -80 )
+rotation = 1.5708
+scale = Vector2( 5.5, 1 )
+
+[node name="Wall4" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 864, -224 )
+rotation = 3.14159
+scale = Vector2( 17, 1 )
+
+[node name="Wall5" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 608, -464 )
+rotation = 1.5708
+scale = Vector2( 6.5, 1 )
+
+[node name="Wall6" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( -128, -864 )
+rotation = -3.14159
+scale = Vector2( 4, 1 )
+
+[node name="Wall7" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 608, -704 )
+rotation = -3.14159
+scale = Vector2( 7, 1 )
+
+[node name="Wall8" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 416, -1008 )
+rotation = -1.5708
+scale = Vector2( 8.5, 1 )
+
+[node name="Wall9" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( -288, -1312 )
+rotation = -1.5708
+scale = Vector2( 7, 1 )
+
+[node name="Wall10" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 800, -1280 )
+rotation = -1.5708
+scale = Vector2( 8, 1 )
+
+[node name="Wall11" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 256, -1504 )
+rotation = -3.14159
+scale = Vector2( 16, 1 )
+
+[node name="Wall12" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 1440, -864 )
+rotation = -1.5708
+scale = Vector2( 21, 1 )
+
+[node name="Wall13" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 1120, -1504 )
+scale = Vector2( 9, 1 )
+
+[node name="Wall14" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 1120, -864 )
+rotation = 1.5708
+scale = Vector2( 13, 1 )
+
+[node name="Wall15" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 960, -1088 )
+rotation = 3.14159
+scale = Vector2( 4, 2 )
+
+[node name="Wall16" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 992, -480 )
+rotation = 3.14159
+scale = Vector2( 3, -1 )
+
+[node name="Wall17" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 1048, -1216 )
+rotation = -3.14159
+scale = Vector2( 1.5, 2 )
+
+[node name="Wall18" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 872, -1216 )
+rotation = -3.14159
+scale = Vector2( 1.5, 2 )
+
+[node name="Wall19" parent="Walls" instance=ExtResource( 1 )]
+position = Vector2( 192, -1248 )
+rotation = -3.14159
+scale = Vector2( 6, -1 )
+
+[node name="Ball" parent="." instance=ExtResource( 3 )]
+
+[node name="Hole" parent="." instance=ExtResource( 5 )]
+position = Vector2( 960, -1184 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="HUD" parent="." instance=ExtResource( 2 )]
+
+[node name="PauseMenu" parent="." instance=ExtResource( 6 )]
+visible = false
+
+[node name="LevelComplete" parent="." instance=ExtResource( 9 )]
+visible = false
+
+[node name="Tutorial1" type="Label" parent="."]
+margin_left = -176.0
+margin_top = -224.0
+margin_right = 176.0
+margin_bottom = -155.0
+custom_fonts/font = SubResource( 1 )
+text = "CLICK & DRAG TO AIM
+RELEASE TO LAUNCH"
+align = 1
+autowrap = true
+uppercase = true
+
+[node name="Tutorial2" type="Label" parent="."]
+margin_left = -336.0
+margin_top = -1024.0
+margin_right = 16.0
+margin_bottom = -955.0
+custom_fonts/font = SubResource( 1 )
+text = "PRESS [R] TO RESET A LEVEL"
+align = 1
+autowrap = true
+uppercase = true
+
+[node name="Tutorial3" type="Label" parent="."]
+margin_left = 448.0
+margin_top = -1248.0
+margin_right = 768.0
+margin_bottom = -1143.0
+custom_fonts/font = SubResource( 1 )
+text = "YOUR GOAL IS TO GET IN THAT HOLE --->"
+align = 1
+autowrap = true
+uppercase = true
+
+[node name="Tutorial4" type="Label" parent="."]
+margin_left = 288.0
+margin_top = -512.0
+margin_right = 544.0
+margin_bottom = -407.0
+custom_fonts/font = SubResource( 1 )
+text = "YOU CAN ONLY SHOOT ONCE PER 2.5 SECONDS"
+align = 1
+autowrap = true
+uppercase = true

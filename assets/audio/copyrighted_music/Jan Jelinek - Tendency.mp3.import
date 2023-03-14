@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Jan Jelinek - Tendency.mp3-f3cf240f9912b208365d8e75e04ef9ec.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Jan Jelinek - Tendency.mp3"
+dest_files=[ "res://.import/Jan Jelinek - Tendency.mp3-f3cf240f9912b208365d8e75e04ef9ec.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

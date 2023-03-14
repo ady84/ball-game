@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Aphex Twin - Xtal.mp3-3b1637506b20f32e2e8c091c4d8d1769.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Aphex Twin - Xtal.mp3"
+dest_files=[ "res://.import/Aphex Twin - Xtal.mp3-3b1637506b20f32e2e8c091c4d8d1769.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

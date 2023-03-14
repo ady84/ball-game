@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Autechre - Eutow.mp3-fd0caf2238027180a0dd04059e2b302b.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Autechre - Eutow.mp3"
+dest_files=[ "res://.import/Autechre - Eutow.mp3-fd0caf2238027180a0dd04059e2b302b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

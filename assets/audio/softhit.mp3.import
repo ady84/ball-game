@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/softhit.mp3-6f71cc3eb220f01baf345c92f95a1fde.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/softhit.mp3"
+dest_files=[ "res://.import/softhit.mp3-6f71cc3eb220f01baf345c92f95a1fde.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

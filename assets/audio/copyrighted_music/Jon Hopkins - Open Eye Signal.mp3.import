@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Jon Hopkins - Open Eye Signal.mp3-4ef882541a16935dd3737df7249145ab.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Jon Hopkins - Open Eye Signal.mp3"
+dest_files=[ "res://.import/Jon Hopkins - Open Eye Signal.mp3-4ef882541a16935dd3737df7249145ab.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

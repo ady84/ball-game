@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Autechre - Nil.mp3-cf614a8301dc9c24ce64d36ab73e7df6.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Autechre - Nil.mp3"
+dest_files=[ "res://.import/Autechre - Nil.mp3-cf614a8301dc9c24ce64d36ab73e7df6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

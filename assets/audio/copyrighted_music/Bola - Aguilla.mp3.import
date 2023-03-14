@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bola - Aguilla.mp3-a9db6411d18ffdfc59dbc5ac620d2190.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Bola - Aguilla.mp3"
+dest_files=[ "res://.import/Bola - Aguilla.mp3-a9db6411d18ffdfc59dbc5ac620d2190.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

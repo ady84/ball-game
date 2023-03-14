@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Aphex Twin - Fingerbib.mp3-18ef04c0b6e62ecf98fafc822b9faba1.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Aphex Twin - Fingerbib.mp3"
+dest_files=[ "res://.import/Aphex Twin - Fingerbib.mp3-18ef04c0b6e62ecf98fafc822b9faba1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

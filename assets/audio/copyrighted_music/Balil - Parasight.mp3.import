@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Balil - Parasight.mp3-1d4e439ee7f2cd9e98ec23a769bf4a81.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Balil - Parasight.mp3"
+dest_files=[ "res://.import/Balil - Parasight.mp3-1d4e439ee7f2cd9e98ec23a769bf4a81.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

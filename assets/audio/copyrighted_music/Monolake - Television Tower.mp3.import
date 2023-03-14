@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Monolake - Television Tower.mp3-6ca2e75d373ea4f704526e26555513af.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Monolake - Television Tower.mp3"
+dest_files=[ "res://.import/Monolake - Television Tower.mp3-6ca2e75d373ea4f704526e26555513af.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

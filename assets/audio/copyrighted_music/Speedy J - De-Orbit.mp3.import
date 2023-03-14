@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Speedy J - De-Orbit.mp3-cc338befb99e6673a89c320f09d7ac55.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/copyrighted_music/Speedy J - De-Orbit.mp3"
+dest_files=[ "res://.import/Speedy J - De-Orbit.mp3-cc338befb99e6673a89c320f09d7ac55.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
